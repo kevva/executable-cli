@@ -1,0 +1,39 @@
+{
+  "name": "executable-cli",
+  "version": "0.0.0",
+  "description": "Check if a file is executable",
+  "license": "MIT",
+  "repository": "kevva/executable-cli",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "executable": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "exec",
+    "executable"
+  ],
+  "dependencies": {
+    "executable": "^2.1.0",
+    "meow": "^3.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "execa": "^0.1.1",
+    "xo": "^0.12.1"
+  }
+}
