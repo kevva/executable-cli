@@ -3,10 +3,10 @@
 const executable = require('executable');
 const meow = require('meow');
 
-const cli = meow([
-	'Usage',
-	'  $ executable <file>'
-]);
+const cli = meow(`
+	Usage
+	  $ executable <file>
+`);
 
 if (cli.input.length === 0) {
 	console.error('Specify a file');

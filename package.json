@@ -28,12 +28,12 @@
     "executable"
   ],
   "dependencies": {
-    "executable": "^2.1.0",
+    "executable": "^3.0.0",
     "meow": "^3.6.0"
   },
   "devDependencies": {
     "ava": "*",
     "execa": "^0.1.1",
-    "xo": "^0.12.1"
+    "xo": "*"
   }
 }
